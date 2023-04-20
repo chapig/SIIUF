@@ -43,7 +43,7 @@ def read_item(day: int, month: int, year: int):
         return {"Error": str(error)}
 
 
-@app.get("/uf/{year}")
+@app.get("/{year}")
 def read_item(year: int):
     """
     :param year:
